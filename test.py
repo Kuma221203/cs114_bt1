@@ -7,7 +7,7 @@ y = []
 kernel = np.ones((5, 5), np.uint8)
 path = "D:\HKIV\cs114\Datasets"
 # for name in os.listdir(path):
-name = "0"
+name = "3"
 path_numbers = path + "/" + name
 for img_name in os.listdir(path_numbers):
     path_img = path_numbers + "/" + img_name
