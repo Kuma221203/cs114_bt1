@@ -5,9 +5,9 @@ import shutil
 X = []
 y = []
 kernel = np.ones((5, 5), np.uint8)
-path = "D:\HKIV\cs114\Datasets"
+path = "C:/Users/ADMIN/Desktop/git_test/CS114.N21/Datasets"
 # for name in os.listdir(path):
-name = "3"
+name = "7"
 path_numbers = path + "/" + name
 for img_name in os.listdir(path_numbers):
     path_img = path_numbers + "/" + img_name
